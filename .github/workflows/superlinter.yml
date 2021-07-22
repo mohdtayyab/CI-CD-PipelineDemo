@@ -30,4 +30,9 @@ jobs:
                 echo "Hello
                 how are you 
                 r u ok"
+            - name: python shell
+              run: |
+                import platform
+                print(platform.processor())
+              shell: python
     
