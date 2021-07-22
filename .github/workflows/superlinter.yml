@@ -25,4 +25,9 @@ jobs:
         steps:
             - name: echo command running
               run: echo "Hello World"
+            - name: multi line command
+              run: |
+                echo "Hello"
+                how are you 
+                r u ok
     
