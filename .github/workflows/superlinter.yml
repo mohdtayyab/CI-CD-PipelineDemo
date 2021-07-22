@@ -27,7 +27,7 @@ jobs:
               run: echo "Hello World"
             - name: multi line command
               run: |
-                echo "Hello"
+                echo "Hello
                 how are you 
-                r u ok
+                r u ok"
     
