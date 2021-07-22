@@ -38,6 +38,7 @@ jobs:
     windows-command:
        name: windows os
        runs-on: windows-latest
+       needs: ["shell-command"]
        steps:
          - name: Directory Powershe
            run: Get-Location
