@@ -19,7 +19,7 @@
 name: Shell script
 on: push
 jobs: 
-    shell command :
+    shell-command :
         name: linux os
         runs-on: ubuntu-latest
         steps:
@@ -35,7 +35,7 @@ jobs:
                 import platform
                 print(platform.processor())
               shell: python
-    windows command:
+    windows-command:
        name: windows os
        runs-on: windows-latest
        steps:
