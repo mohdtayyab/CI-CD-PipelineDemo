@@ -19,8 +19,8 @@
 name: Shell script
 on: push
 jobs: 
-    shell1:
-        name: run os
+    shell command :
+        name: linux os
         runs-on: ubuntu-latest
         steps:
             - name: echo command running
@@ -35,4 +35,13 @@ jobs:
                 import platform
                 print(platform.processor())
               shell: python
+    windows command:
+       name: windows os
+       runs-on: windows-latest
+       steps:
+         - name: Directory Powershe
+           run: Get-Location
+         - name: Directory bash
+           run: pwd
+           shell: bash
     
